@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <h2>JavaScript<br><br> Form Validation</h2>
+        </div>
+        <div class="right">
+            <div class="form-container">
+                <form class="form" id="form">
+                    <div>
+                        <span class="elements">Name:
+                            <font style="color:red">*</font>
+                        </span>&emsp;&emsp;&emsp;&emsp;&emsp;
+                        <input type="text" name="name" placeholder="name" required>
+                        <span id="name-status"></span><br><br>
+                    </div>
+
+                    <div>
+                        <span class="elements">Password:
+                            <font style="color:red">*</font>
+                        </span>&emsp;&emsp;&emsp;&nbsp;&nbsp;
+                        <input type="text" name="password" placeholder="password" required>
+                        <span id="password-status"></span><br><br>
+                    </div>
+
+                    <div>
+                        <span class="elements">Confirm Password:
+                            <font style="color:red">*</font>
+                        </span>
+                        <input type="text" name="confirmpassword" placeholder="confirmpassword" required>
+                        <span id="confirm-password-status"></span><br><br>
+                    </div>
+
+                    <div>
+                        <span class="elements">Phone Number:
+                            <font style="color:red">*</font>
+                        </span>&emsp;&nbsp;
+                        <input type="text" name="phoneNo" placeholder="phone number" required>
+                        <span id="phone-status"></span><br><br>
+                    </div>
+
+                    <div>
+                        <span class="elements">Email:
+                            <font style="color:red">*</font>
+                        </span>&emsp;&emsp;&emsp;&emsp;&emsp;
+                        <input type="text" name="email" placeholder="enter valid mail id" required>
+                        <span id="email-status"></span><br><br>
+                    </div>
+
+                    <div>
+                        <span class="elements">Gender:
+                            <font style="color:red">*</font>
+                        </span>&emsp;&emsp;&emsp;&nbsp;&emsp;
+                        <select name="gender">
+                            <option value="select">Select</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                        <span id="gender-status"></span><br><br>
+                    </div>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+                    <button class="button">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <script src="index.js" defer></script>
+</body>
+
+</html>
+<!-- 
+
+
+
+&emsp;, &ensp;, &#9; &nbsp; -->
